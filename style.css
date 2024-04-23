@@ -1,0 +1,348 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width:60px;
+    height:55px;
+}
+
+header img+div{
+    text-align: center;
+    width: 400px;
+    font-size: 12px;
+}
+
+.couleurVertCiel{
+    color: #0ef;
+}
+.epaisseur500{
+    font-weight:500;
+}
+
+
+.epaisseur700{
+    font-weight: 700;
+}
+
+.epaisseur900{
+    font-weight:900;
+}
+
+.majuscule{
+    text-transform:uppercase;
+}
+
+.ecartLettre{
+    letter-spacing: 0;
+}
+
+.ecartLettre1{
+    letter-spacing: 1px;
+}
+
+.couleurFond{
+    background-color:rgba(180, 180, 180, 0.992);
+}
+
+.scanner_bloc{
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.scanner_bloc .scanner_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+.bloc2{
+    text-align: center;
+}
+
+/* ==================Main==================== */
+
+main{
+    margin:5px 7% 10% 7%;
+}
+
+
+main .entete{
+    display: flex;
+    margin: 5px 0;
+}
+
+.entete .nom{
+    padding-left: 20px;
+    margin-right: 100px;
+}
+.soulignement{
+    text-decoration: underline;
+}
+
+
+.paddingleft10{
+    padding-left: 10px;
+}
+
+table{
+    display: block;
+}
+
+
+thead{
+    text-align: center;
+    font-weight:100;
+}
+
+.corps{
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+th{
+    height: 25px;
+}
+
+.corps .bloc{
+    display: flex;
+    background-color: #0ef;
+    
+}
+
+.brodure{
+    border: 1px solid;
+    
+}
+
+.height28px{
+    height:28px;
+}
+
+.flexibility{
+    display: flex;
+    align-items: center;
+}
+
+.height25px{
+    height: 25px;
+}
+
+.width50px{
+    width: 50px;
+}
+
+.width54px{
+    width: 54px;
+}
+
+.width110px{
+    width: 110px;
+}
+
+.width108px{
+    width: 108px;
+}
+
+.width104px{
+    width: 104px;
+}
+
+
+.width127px{
+    width: 127px;
+}
+
+.width128px{
+    width: 128px;
+}
+
+.width180px{
+    width: 180px;
+}
+
+.width100px{
+    width: 100px;
+}
+
+.width90px{
+    width: 90px;
+}
+
+.payeur{
+   margin-left: 60px;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+
+
+.width400px{
+    width: 400px;
+}
+
+.width200px{
+    width: 200px;
+}
+
+.width210px{
+    width: 210px;
+}
+
+.textAlignStart{
+    text-align: start;
+}
+
+.textAlignEnd{
+    text-align: end;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.marginRight80{
+    margin-right: 20px;
+}
+.margin0{
+    margin: 0;
+}
+
+.padding1{
+    padding: 8px;
+}
+
+.tfoot{
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 5px;
+}
+
+
+.marginRight{
+    margin-right: 20px;
+}
+
+.marginBottom{
+    margin-bottom: 200px;
+}
+
+.justifycenter{
+    justify-content: center;
+}
+
+.justifyend{
+    justify-content: end;
+}
+
+.absolute{
+    position: absolute;
+}
+
+aside{
+    background-color: red;
+    transform: rotate(-90deg);
+    left:-140px;
+    top: 390px;
+    width: 300px;
+}
+
+.original{
+    font-size: 30px;
+    transform: rotate(-25deg);
+    left: 15px;
+    top: 350px;
+}
+
+.marginLeftRight{
+    margin: 0 20px;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.montant{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.last_bloc{
+    margin: 10px 0 20px 0 ;
+
+}
+.montant .recap_bloc{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.marginLeft20{
+    margin-left: 20px;
+}
+
+.marginLeft-20{
+    margin-left: -20px;
+}
+.marginLeft37{
+    margin-left: 37px;
+}
+
+.caissiere{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    align-items: center;
+}
+
+li{
+    list-style:none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    color: #333;
+    height: 5px;
+    
+}
+
+  
+.taille{
+    font-size: 8.8px;
+    margin: 0;
+}
+
+footer div{
+    display: flex;
+    gap: 7px;
+}
